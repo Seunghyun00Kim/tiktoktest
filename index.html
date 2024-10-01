@@ -10,13 +10,22 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
       background-color: #f0f0f0;
       margin: 0;
     }
-    .tiktok-embed {
+    .tiktok-container {
+      width: 100%;
       max-width: 605px;
-      min-width: 325px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    iframe {
+      border: 0;
+      width: 100%;
+      max-width: 605px;
+      height: 680px;
       margin-bottom: 20px;
     }
   </style>
@@ -24,28 +33,32 @@
 <body>
 
   <!-- 첫 번째 TikTok 동영상 -->
-  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@u_gangn/video/7420775603898420498" data-video-id="7420775603898420498" style="max-width: 605px;min-width: 325px;">
-    <section> 
-      <a target="_blank" title="@u_gangn" href="https://www.tiktok.com/@u_gangn?refer=embed">@u_gangn</a> 
-      드림 스테이지 오픈! 스타라이트 트윙클 코디 완성! 
-      <a title="cos" target="_blank" href="https://www.tiktok.com/tag/cos?refer=embed">#cos</a> 
-      <a title="cosplay" target="_blank" href="https://www.tiktok.com/tag/cosplay?refer=embed">#cosplay</a> 
-      <a title="샤이닝스타" target="_blank" href="https://www.tiktok.com/tag/%EC%83%A4%EC%9D%B4%EB%8B%9D%EC%8A%A4%ED%83%80?refer=embed">#샤이닝스타</a> 
-      <a title="shiningstar" target="_blank" href="https://www.tiktok.com/tag/shiningstar?refer=embed">#shiningstar</a> 
-      <a target="_blank" title="♬ nhạc nền  - Ayaya" href="https://www.tiktok.com/music/nhạc-nền-Ayaya-7328968253136112385?refer=embed">♬ nhạc nền  - Ayaya</a> 
-    </section>
-  </blockquote>
+  <div class="tiktok-container">
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@u_gangn/video/7420775603898420498" data-video-id="7420775603898420498" style="max-width: 605px;min-width: 325px;">
+      <section> 
+        <a target="_blank" title="@u_gangn" href="https://www.tiktok.com/@u_gangn?refer=embed">@u_gangn</a> 
+        드림 스테이지 오픈! 스타라이트 트윙클 코디 완성! 
+        <a title="cos" target="_blank" href="https://www.tiktok.com/tag/cos?refer=embed">#cos</a> 
+        <a title="cosplay" target="_blank" href="https://www.tiktok.com/tag/cosplay?refer=embed">#cosplay</a> 
+        <a title="샤이닝스타" target="_blank" href="https://www.tiktok.com/tag/%EC%83%A4%EC%9D%B4%EB%8B%9D%EC%8A%A4%ED%83%80?refer=embed">#샤이닝스타</a> 
+        <a title="shiningstar" target="_blank" href="https://www.tiktok.com/tag/shiningstar?refer=embed">#shiningstar</a> 
+        <a target="_blank" title="♬ nhạc nền  - Ayaya" href="https://www.tiktok.com/music/nhạc-nền-Ayaya-7328968253136112385?refer=embed">♬ nhạc nền  - Ayaya</a> 
+      </section>
+    </blockquote>
+  </div>
 
   <!-- 두 번째 TikTok 동영상 -->
-  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@hayon_cos/video/7405289179082444040" data-video-id="7405289179082444040" style="max-width: 605px;min-width: 325px;">
-    <section> 
-      <a target="_blank" title="@hayon_cos" href="https://www.tiktok.com/@hayon_cos?refer=embed">@hayon_cos</a> 
-      인스타 제품협찬으로 받았는데 너무 예뻤어서 틱톡 첫글로 스을쩍 ,,, 💕 
-      <a title="입생로랑틴트" target="_blank" href="https://www.tiktok.com/tag/%EC%9E%85%EC%83%9D%EB%A1%9C%EB%9E%91%ED%8B%B4%ED%8A%B8?refer=embed">#입생로랑틴트</a> 
-      <a title="립메이크업" target="_blank" href="https://www.tiktok.com/tag/%EB%A6%BD%EB%A9%94%EC%9D%B4%ED%81%AC%EC%97%85?refer=embed">#립메이크업</a> 
-      <a target="_blank" title="♬ Like I Do GALCHANIE COVER - GALCHANIE (แกลชานี่)" href="https://www.tiktok.com/music/Like-I-Do-GALCHANIE-COVER-7342156719034141442?refer=embed">♬ Like I Do GALCHANIE COVER - GALCHANIE (แกลชานี่)</a> 
-    </section>
-  </blockquote>
+  <div class="tiktok-container">
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@hayon_cos/video/7405289179082444040" data-video-id="7405289179082444040" style="max-width: 605px;min-width: 325px;">
+      <section> 
+        <a target="_blank" title="@hayon_cos" href="https://www.tiktok.com/@hayon_cos?refer=embed">@hayon_cos</a> 
+        인스타 제품협찬으로 받았는데 너무 예뻤어서 틱톡 첫글로 스을쩍 ,,, 💕 
+        <a title="입생로랑틴트" target="_blank" href="https://www.tiktok.com/tag/%EC%9E%85%EC%83%9D%EB%A1%9C%EB%9E%91%ED%8B%B4%ED%8A%B8?refer=embed">#입생로랑틴트</a> 
+        <a title="립메이크업" target="_blank" href="https://www.tiktok.com/tag/%EB%A6%BD%EB%A9%94%EC%9D%B4%ED%81%AC%EC%97%85?refer=embed">#립메이크업</a> 
+        <a target="_blank" title="♬ Like I Do GALCHANIE COVER - GALCHANIE (แกลชานี่)" href="https://www.tiktok.com/music/Like-I-Do-GALCHANIE-COVER-7342156719034141442?refer=embed">♬ Like I Do GALCHANIE COVER - GALCHANIE (แกลชานี่)</a> 
+      </section>
+    </blockquote>
+  </div>
 
   <!-- TikTok 임베드 스크립트 -->
   <script async src="https://www.tiktok.com/embed.js"></script>
