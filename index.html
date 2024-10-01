@@ -14,19 +14,16 @@
       height: 100vh;
       background-color: #f0f0f0;
     }
-    .tiktok-embed {
-      max-width: 605px;
-      min-width: 325px;
+    iframe {
+      border: 0;
       width: 100%;
+      max-width: 605px;
+      height: 680px;
     }
   </style>
 </head>
 <body>
   <!-- 틱톡 동영상 임베드 -->
-  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@hayon_cos/video/7405289179082444040" data-video-id="7405289179082444040" style="max-width: 605px;min-width: 325px;">
-  </blockquote>
-
-  <!-- 틱톡 임베드 스크립트 -->
-  <script async src="https://www.tiktok.com/embed.js"></script>
+  <iframe src="https://www.tiktok.com/embed/7405289179082444040" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
